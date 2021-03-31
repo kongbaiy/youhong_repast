@@ -125,7 +125,7 @@
 					<a href="home.html?pageIndex=0">网站首页</a>
 				</li>
 				<li class="popup-list-item">
-					<a href="brand-story.html?pageIndex=1">有红餐饮</a>
+					<a href="intro.html?pageIndex=1">有红餐饮</a>
 				</li>
 				<li class="popup-list-item">
 					<a href="brand-advantage.html?pageIndex=2">特色菜品</a>
