@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="browsermode" content="application">
+    <meta name="x5-page-mode" content="app"> 
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="format-detection" content="telephone=no,email=no,adress=no"/>
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="common/css/reset.css"/>
+    <link rel="stylesheet" href="common/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="common/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/home.css"/>
+    <script src="common/js/rem.js"></script>
+    <script src="common/js/ios.js"></script>
+    <script src="common/js/custom-elements-es5-adapter.min.js"></script>
+    <script src="common/js//webcomponents-bundle.js"></script>
+    <script src="common/js/webcomponents-loader.min.js"></script>
+    <script src="./components/navbar/index.js"></script>
+	<script src="./components/footerbar/index.js"></script>
+</head>
+<body>
+	<!-- 顶部导航栏 -->
+    <top-navbar></top-navbar>
+    
+    <div class="swiper-container banner-container">
+        <div class="swiper-wrapper banner">
+            <div class="swiper-slide banner-item">
+                <img src="imgs/750-785.jpg" alt="" class="banner-item-img" />
+            </div>
+            <div class="swiper-slide banner-item">
+                <img src="imgs/750-785.jpg" alt="" class="banner-item-img" />
+            </div>
+        </div>
+        <div class="swiper-pagination banner-pagination"></div>
+    </div>
+
+    <!-- 介绍 -->
+    <div class="intro">
+        <div class="c-f-eb">
+            <div class="intro-titleBox">
+                <p class="c-module-title">带您认识</p>
+                <p class="c-f-dc c-module-title">有红餐饮<img src="imgs/10-10.png" alt="" class="c-module-titleIcon" /></p>
+            </div>
+            <p class="c-module-titleSlogan">品尝巴蜀民间美食<br/>体验巴蜀风情、感受巴蜀文化</p>
+        </div>
+
+        <div class="intro-nav">
+            <div class="intro-nav-item intro-nav-item_active">
+                <img src="imgs/36-36_active.png" alt="" class="intro-nav-itemIcon" />品牌故事
+            </div>
+            <div class="intro-nav-item">
+                <img src="imgs/36-36_2.png" alt="" class="intro-nav-itemIcon" />品牌荣誉
+            </div>
+            <div class="intro-nav-item">
+                <img src="imgs/36-36_3.png" alt="" class="intro-nav-itemIcon" />品牌历程
+            </div>
+        </div>
+        <div class="intro-content">
+            有红餐饮餐饮管理公司是一家具有全球战略眼光的企业，由国内知名定位公司、营销公司，加之企业创始人本身世代相传的美食技艺，经两年的时间研发而设计的品牌，是行业内最早推出巴蜀民间菜传承技艺的公司。公司的创始人范有红先生是餐饮界的传奇人物，曾荣获多个国家级烹饪大赛金奖殊荣并多次参与国内的大型厨艺比赛的评委和美食节目。
+            <img src="imgs/700-450.jpg" alt="" />
+        </div>
+    </div>
+
+    <!-- 特色 -->
+    <div class="food">
+        <div class="food-header">
+            <div class="c-f-eb">
+                <div class="food-titleBox">
+                    <p class="c-module-title">精选特色</p>
+                    <p class="c-f-dc c-module-title">美食<img src="imgs/15-15.png" alt="" class="c-module-titleIcon" /></p>
+                </div>
+                <div class="food-slogan">
+                    <p class="c-f-dc food-slogan-title">
+                        <a href="tel:028-00000000">028-00000000</a> 加盟咨询热线 <img src="imgs/30-30.png" alt="" class="food-slogan-rightArrow" />
+                    </p>
+                    <p class="food-slogan-text">精选高品质食材</p>
+                </div>
+            </div>
+    
+            <div class="food-nav">
+                <div class="food-nav-item food-nav-item_active">经典火锅</div>
+                <div class="food-nav-item">蜀味冒菜</div>
+                <div class="food-nav-item">麻辣串串香</div>
+                <div class="food-nav-item">美味小吃</div>
+            </div>
+        </div>
+        
+        <div class="swiper-container food-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="imgs/700-500.jpg" alt="" class="food-swiper-slideImg" />
+                    <div class="food-swiper-slideInfo">
+                        <p class="food-swiper-slideTitle">青椒花甲鸡</p>
+                        <p class="food-swiper-slideText">五香牛肉：清淡口感，清新感受</p>
+                        <p class="food-swiper-slideText">必点理由：薄如蝉翼，脆糯两重</p>
+                        <p class="c-f-dc food-swiper-slideText">五香牛肉： <img src="imgs/24-24.png" alt=""/><img src="imgs/24-24.png" alt=""/></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="imgs/700-500.jpg" alt="" class="food-swiper-slideImg" />
+                    <div class="food-swiper-slideInfo">
+                        <p class="food-swiper-slideTitle">青椒花甲鸡</p>
+                        <p class="food-swiper-slideText">五香牛肉：清淡口感，清新感受</p>
+                        <p class="food-swiper-slideText">必点理由：薄如蝉翼，脆糯两重</p>
+                        <p class="c-f-dc food-swiper-slideText">五香牛肉： <img src="imgs/24-24.png" alt=""/></p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination food-pagination"></div>
+        </div>
+        
+    </div>
+
+    <!-- 餐品链 -->
+    <div class="product-chain">
+        <img src="imgs/750-650.png" alt="" class="product-chani-img" />
+        <div class="product-chain-item">
+            <img src="imgs/160-160.png" alt="" class="product-chain-itemImg" />
+            <p class="product-chain-itemTitle">技术系统支撑 高效便捷的订货平台</p>
+            <p class="product-chain-itemText">
+                随着公司不断推广和完善易订货系统，目前有红餐饮品牌直营店以及加盟店已开始使用易订货系统进行下单报货。 不同于以往的电话、微信咨询下单，门店通过易订货系统，可以移动、实时地查询物资介绍、价格并进行下单，实现了公司与门店间的业务订单、资金 货物的有效管控，解决了业务管控问题并提升了业务效率。
+            </p>
+        </div>
+        <div class="product-chain-item">
+            <img src="imgs/160-160(1).png" alt="" class="product-chain-itemImg" />
+            <p class="product-chain-itemTitle">强大仓储平台 规模庞大分工精细</p>
+            <p class="product-chain-itemText">
+                有红餐饮餐饮管理公司建有完备的仓储物流系统、标准化、精细化的管理模式,中央厨房会根据每家门店的日营业情况进行预估营业、预估单品售卖、门店安全存量等信息进行生产和配送,保证了有红鸡毛店的食品安全性和源料食材品质,也使您不论在哪里的有红鸡毛店吃到的都是同样的味道。
+            </p>
+        </div>
+        <div class="product-chain-item">
+            <img src="imgs/160-160(2).png" alt="" class="product-chain-itemImg" />
+            <p class="product-chain-itemTitle">强大物流系统 服务2000+家门店</p>
+            <p class="product-chain-itemText">
+                为保证食材的质量和口味,有红餐饮与国内外各大顶级供货商合作,在全国范围内采购最适合的食材,并严格执行产品制作流程和标准。统一配送方面,全方位保障产业链条每一个环节的稳定可靠，将需低温保存运输的物资全程冷链储存运输，保证物资时效性。
+            </p>
+        </div>
+        <div class="product-chain-item">
+            <img src="imgs/160-160(3).png" alt="" class="product-chain-itemImg" />
+            <p class="product-chain-itemTitle">技术系统支撑 高效便捷的订货平台</p>
+            <p class="product-chain-itemText">
+                随着公司不断推广和完善易订货系统，目前有红餐饮品牌直营店以及加盟店已开始使用易订货系统进行下单报货。 不同于以往的电话、微信咨询下单，门店通过易订货系统，可以移动、实时地查询物资介绍、价格并进行下单，实现了公司与门店间的业务订单、资金 货物的有效管控，解决了业务管控问题并提升了业务效率。
+            </p>
+        </div>
+    </div>
+    
+    <!-- 咨询 -->
+    <div class="consulting">
+        <div class="c-f-eb">
+            <div class="intro-titleBox">
+                <p class="c-module-title">资讯与您</p>
+                <p class="c-f-dc c-module-title">一起共享<img src="imgs/10-10.png" alt="" class="c-module-titleIcon" /></p>
+            </div>
+            <p class="c-module-titleSlogan">足不出屋<br/>掌握美食行业最新动向</p>
+        </div>
+
+        <div class="consulting-nav">
+            <div class="consulting-nav-item consulting-nav-item_active">新闻资讯</div>
+            <div class="consulting-nav-item">行业资讯</div>
+            <div class="consulting-nav-item">加盟案例</div>
+            <div class="consulting-nav-item">团队招募</div>
+        </div>
+
+        <div class="consulting-list">
+            <a href="" class="consulting-list-item">
+                <img src="imgs/240-200.jpg" alt="" class="consulting-list-itemImg" />
+                <div class="consulting-list-itemInfo">
+                    <p class="consulting-list-itemTitle">哪些因素影响火锅的发展前景</p>
+                    <p class="consulting-list-itemText"> 如今麻辣火锅已经遍布全国了。我们不同再向之前一样要到川渝才能吃到麻辣...</p>
+                    <p class="consulting-list-itemDate">2020-01-01</p>
+                </div>
+            </a>
+            <a href="" class="consulting-list-item">
+                <img src="imgs/240-200.jpg" alt="" class="consulting-list-itemImg" />
+                <div class="consulting-list-itemInfo">
+                    <p class="consulting-list-itemTitle">哪些因素影响火锅的发展前景</p>
+                    <p class="consulting-list-itemText"> 如今麻辣火锅已经遍布全国了。我们不同再向之前一样要到川渝才能吃到麻辣...</p>
+                    <p class="consulting-list-itemDate">2020-01-01</p>
+                </div>
+            </a>
+            <a href="" class="consulting-list-item">
+                <img src="imgs/240-200.jpg" alt="" class="consulting-list-itemImg" />
+                <div class="consulting-list-itemInfo">
+                    <p class="consulting-list-itemTitle">哪些因素影响火锅的发展前景</p>
+                    <p class="consulting-list-itemText"> 如今麻辣火锅已经遍布全国了。我们不同再向之前一样要到川渝才能吃到麻辣...</p>
+                    <p class="consulting-list-itemDate">2020-01-01</p>
+                </div>
+            </a>
+        </div>
+        
+        <a href="">
+            <div class="c-btn-t1 consulting-list-btn">查看更多</div>
+        </a>
+    </div>
+    
+   <!-- 加盟 -->
+   <div class="join-in">
+        <div class="c-f-eb join-in-header">
+            <div class="intro-titleBox">
+                <p class="c-module-title">是客户更</p>
+                <p class="c-f-dc c-module-title">是挚友<img src="imgs/10-10.png" alt="" class="c-module-titleIcon" /></p>
+            </div>
+            <p class="c-module-titleSlogan">共创餐饮文化品牌<br/>合作加盟我们实现共赢</p>
+        </div>
+        <div class="join-in-nav">
+            <div class="join-in-navItem join-in-navItem_active">加盟优势</div>
+            <div class="join-in-navItem">学习中心</div>
+            <div class="join-in-navItem">资料下载</div>
+            <div class="join-in-navItem">常见问题</div>
+        </div>
+
+        <div class="join-in-list">
+            <div class="join-in-listItem">
+                <p class="join-in-listItemTitle">品牌支持 ·<span>Brand support</span></p>
+                <p class="join-in-listItemText">通过授权方式利用“本公司”的市场知名度和影响力，对于提升门店的营业业绩将起到十分重要的作用。对于提升门店的营业业绩将起到十分重要的作用。</p>
+            </div>
+            <div class="join-in-listItem">
+                <p class="join-in-listItemTitle">品牌支持 ·<span>Brand support</span></p>
+                <p class="join-in-listItemText">通过授权方式利用“本公司”的市场知名度和影响力，对于提升门店的营业业绩将起到十分重要的作用。对于提升门店的营业业绩将起到十分重要的作用。</p>
+            </div>
+            <div class="join-in-listItem">
+                <p class="join-in-listItemTitle">品牌支持 ·<span>Brand support</span></p>
+                <p class="join-in-listItemText">通过授权方式利用“本公司”的市场知名度和影响力，对于提升门店的营业业绩将起到十分重要的作用。对于提升门店的营业业绩将起到十分重要的作用。</p>
+            </div>
+            <div class="join-in-listItem">
+                <p class="join-in-listItemTitle">品牌支持 ·<span>Brand support</span></p>
+                <p class="join-in-listItemText">通过授权方式利用“本公司”的市场知名度和影响力，对于提升门店的营业业绩将起到十分重要的作用。对于提升门店的营业业绩将起到十分重要的作用。</p>
+            </div>
+            <div class="join-in-listItem">
+                <p class="join-in-listItemTitle">品牌支持 ·<span>Brand support</span></p>
+                <p class="join-in-listItemText">通过授权方式利用“本公司”的市场知名度和影响力，对于提升门店的营业业绩将起到十分重要的作用。对于提升门店的营业业绩将起到十分重要的作用。</p>
+            </div>
+        </div>
+
+        <a href="">
+            <button class="c-btn-t1 join-in-listBtn">我要加盟</button>
+        </a>
+   </div>
+
+    <!-- 页脚 -->
+    <footer-bar></footer-bar>
+    
+    <script src="common/js/jquery-1.8.3.min.js"></script>
+    <script src="common/js/swiper-bundle.min.js"></script>
+	<script src="js/home.js"></script>
+</body>
+</html>
