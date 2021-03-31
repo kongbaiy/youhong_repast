@@ -1,0 +1,114 @@
+.banner {
+	height: 1.8rem;
+}
+
+.intro {
+	padding: 0.35rem 0.13rem;
+	background-image: url(../imgs/750-1860.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.intro-data {
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+.intro-data-item {
+	float: left;
+	box-sizing: border-box;
+	padding: 0.09rem 0.35rem;
+	width: 49.5%;
+	height: 1rem;
+	border-bottom: 1px solid #fff;
+}
+
+.intro-data-item:nth-child(2n + 2) {
+	border-left: 1px solid #fff;
+}
+
+.intro-data-item:last-child, 
+.intro-data-item:nth-last-child(2) {
+	border-bottom: none;
+}
+
+.intro-data-itemEnglish {
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.2rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.intro-data-itemTitle {
+	margin-top: 0.05rem;
+	font-size: 0.27rem;
+	font-family: DustHome;
+	font-weight: 700;
+	line-height: 0.3rem;
+	color: #fff;
+}
+
+.intro-data-itemTitle span {
+	margin-left: 0.05rem;
+	font-size: 0.12rem;
+}
+
+.intro-data-itemText {
+	margin-top: 0.03rem;
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.2ren;
+	color: #fff;
+}
+
+.intro-content {
+	margin-top: 0.35rem;
+}
+
+.intro-content-title {
+	margin-left: 0.13rem;
+	font-size: 0.2rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.34rem;
+	color: #fff;
+}
+
+.intro-content-auth {
+	margin-top: 0.25rem;
+}
+
+.intro-content-authItem {
+	text-align: center;
+}
+
+.intro-content-authItemImg {
+	width: 0.4rem;
+	height: 0.4rem;
+}
+
+.intro-content-authItemName {
+	margin-top: 0.13rem;
+	font-size: 0.11rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.2rem;
+	color: #fff;
+}
+
+.intro-content-textBox {
+	margin-top: 0.35rem;
+}
+
+.intro-content-text {
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.24rem;
+	text-indent: 0.24rem;
+	color: #fff;
+}
