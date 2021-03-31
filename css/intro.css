@@ -2,6 +2,7 @@
 	height: 1.8rem;
 }
 
+/* 简介 */
 .intro {
 	padding: 0.35rem 0.13rem;
 	background-image: url(../imgs/750-1860.jpg);
@@ -111,4 +112,23 @@
 	line-height: 0.24rem;
 	text-indent: 0.24rem;
 	color: #fff;
+}
+
+/* 企业人物 */
+.company-character {
+	padding: 0.35rem 0.13rem;
+}
+
+.company-character-title {
+	padding-bottom: 0.15rem;
+	border-bottom: 1px solid #E6E6E6;
+	font-size: 0.24rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #262626;
+}
+
+.company-character-title span {
+	font-size: 0.16rem;
+	font-weight: 500;
 }
