@@ -2,6 +2,10 @@
 	height: 1.8rem;
 }
 
+.banner-img {
+	width: 100%;
+}
+
 /* 简介 */
 .intro {
 	padding: 0.35rem 0.13rem;
@@ -9,6 +13,10 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+.intro-header *{
+	color: #fff;
 }
 
 .intro-data {
@@ -120,6 +128,7 @@
 }
 
 .company-character-title {
+	padding-top: 0.25rem;
 	padding-bottom: 0.15rem;
 	border-bottom: 1px solid #E6E6E6;
 	font-size: 0.24rem;
@@ -131,4 +140,136 @@
 .company-character-title span {
 	font-size: 0.16rem;
 	font-weight: 500;
+}
+
+.company-character-nav {
+	overflow: hidden;
+	padding-top: 0.2rem;
+	padding-bottom: 0.25rem;
+}
+
+.company-character-navItem {
+	float: left;
+	position: relative;
+	width: 1.05rem;
+	height: 0.35rem;
+	background-color: #999;
+	font-size: 0.15rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.35rem;
+	text-align: center;
+	color: #fff;
+}
+
+.company-character-navItem:nth-child(n + 2) {
+	margin-left: 0.15rem;
+}
+
+.company-character-navItem::after {
+	content: "";
+	position: absolute;
+	top: 0.05rem;
+	left: 0.05rem;
+	width: 1.05rem;
+	height: 0.35rem;
+	background-image: url(../imgs/210-70_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.company-character-navItem_active {
+	background-color: #B91B23;
+}
+
+.company-character-content {
+	font-size: 0;
+}
+
+.company-character-contentText {
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.24rem;
+	text-indent: 0.24rem;
+	color: #404040;
+}
+
+.company-character-contentText:nth-child(n + 2) {
+	margin-top: 0.15rem;
+}
+
+.company-character-contentImg {
+	margin-top: 0.25rem;
+	width: 100%;
+}
+
+/* 发展历程 */
+.development-history {
+	padding: 0.35rem 0.13rem 0.4rem;
+	background-image: url(../imgs/750-1482_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.development-history-list {
+	position: relative;
+	overflow: hidden;
+	margin-top: 0.25rem;
+	padding-left: 0.23rem;
+	padding-right: 0.12rem;
+}
+
+.development-history-listIcon {
+	position: absolute;
+	top: 0;
+	left: 0.18rem;
+	width: 0.1rem;
+	height: 100%;
+}
+
+.development-history-listItem {
+	position: relative;
+	margin-top: 0.25rem;
+	padding-left: 0.25rem;
+}
+
+.development-history-listItemIcon {
+	position: absolute;
+	top: 0;
+	left: -0.075rem;
+	width: 0.15rem;
+	height: 0.15rem;
+}
+
+.development-history-listItemIcon2 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: -0.1rem;
+	width: 0.2rem;
+	height: 0.2rem;
+}
+
+.development-history-listItemTitle {
+	font-size: 0.18rem;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	line-height: 0.16rem;
+	color: #262626;
+}
+
+.development-history-listItemText {
+	margin-top: 0.1rem;
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.23rem;
+	color: #262626;
+}
+
+.company-philosophy {
+	padding: 0.35rem 0.13rem;
 }
