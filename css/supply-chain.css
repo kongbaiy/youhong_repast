@@ -1,0 +1,72 @@
+.banner {
+	height: 1.8rem;
+}
+
+.banner-img {
+	width: 100%;
+}
+
+.module {
+    padding: 0.35rem 0.13rem;
+    font-size: 0;
+}
+
+.module-title, 
+.module-title2 {
+    position: relative;
+    padding-bottom: 0.15rem;
+    font-size: 0.2rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    line-height: 0.34rem;
+    color: #262626;
+}
+
+.module-title::before,
+.module-title2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0.7rem;
+    height: 0.02rem;
+    background-color: #A71A20;
+}
+
+.module-text {
+    margin-top: 0.2rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.21rem;
+    color: #404040;
+}
+
+.module-img {
+    margin-top: 0.25rem;
+    width: 100%;
+}
+
+.module2 {
+    padding: 0.35rem 0.13rem 0.36rem;
+    background-image: url(../imgs/750-1275.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.module-title2 {
+    margin-top: 0.25rem;
+}
+
+.module3 {
+    padding: 0.35rem 0.13rem 0;
+}
+
+.module4 {
+    padding: 0.35rem 0.13rem 0.5rem;
+}
+
+.bg-F7F7F7 {
+    background-color: #F7F7F7;
+}

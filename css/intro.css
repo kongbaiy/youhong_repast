@@ -184,6 +184,7 @@
 }
 
 .company-character-content {
+	display: none;
 	font-size: 0;
 }
 
@@ -195,10 +196,10 @@
 	text-indent: 0.24rem;
 	color: #404040;
 }
-
+/* 
 .company-character-contentText:nth-child(n + 2) {
-	margin-top: 0.15rem;
-}
+	margin-top: 0.1rem;
+} */
 
 .company-character-contentImg {
 	margin-top: 0.25rem;
@@ -236,6 +237,18 @@
 	padding-left: 0.25rem;
 }
 
+.development-history-listItem:first-of-type {
+	margin-top: 0.33rem;
+}
+
+.development-history-list .development-history-listItem_active *{
+	color: #B91B23;
+}
+
+.development-history-list .development-history-listItem_active .development-history-listItemTitle {
+	font-weight: 800;
+}
+
 .development-history-listItemIcon {
 	position: absolute;
 	top: 0;
@@ -271,5 +284,121 @@
 }
 
 .company-philosophy {
+	box-sizing: border-box;
 	padding: 0.35rem 0.13rem;
+	min-height: 8.5rem;
+	background-image: url(../imgs/750-1700.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.company-philosophy-list {
+	overflow: hidden;
+	margin-top: 0.25rem;
+}
+
+.company-philosophy-listItem {
+	float: left;
+	margin-bottom: 0.25rem;
+	width: 1.6rem;
+}
+
+.company-philosophy-listItem:nth-child(2n +2) {
+	margin-left: 0.15rem;
+}
+
+.company-philosophy-listItemImg {
+	width: 0.35rem;
+	height: 0.35rem;
+}
+
+.company-philosophy-listItemTitle {
+	width: 100%;
+	border-bottom: 1px solid #999;
+	font-size: 0.15rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.41rem;
+	text-align: center;
+}
+
+.company-philosophy-listItemText {
+	margin-top: 0.1rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #262626;
+}
+
+/* 企业使命 */
+.enterprise-mission {
+	padding: 0.35rem 0.13rem;
+}
+
+.enterprise-mission-content {
+	overflow: hidden;
+	margin-top: 0.1rem;
+	font-size: 0;
+}
+
+.enterprise-mission-contentTitle {
+	margin-top: 0.25rem;
+	font-size: 0.18rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #404040;
+}
+
+.enterprise-mission-contentText {
+	margin-top: 0.1rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.21rem;
+	color: #666666;
+}
+
+.enterprise-mission-contentImg {
+	margin-top: 0.25rem;
+	width: 100%;
+}
+
+/* 企业荣誉 */
+.enterprise-honor {
+	padding: 0.35rem 0.13rem;
+}
+
+.enterprise-honor-swiper {
+	margin-top: 0.25rem;
+	height: 7.93rem;
+}
+
+.enterprise-honor-swiperImg {
+	margin-bottom: 0.15rem;
+	width: 1.68rem;
+	height: 2.38rem;
+}
+
+.enterprise-honor-swiperImg:nth-child(2n + 2) {
+	margin-left: 0.13rem;
+}
+
+.enterprise-honor-swiper .enterprise-honor-pagination {
+    bottom: 0.15rem;
+}
+
+.enterprise-honor-swiper .enterprise-honor-pagination .swiper-pagination-bullet {
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #999;
+    opacity: 0.5;
+}
+
+.enterprise-honor-swiper .enterprise-honor-pagination .swiper-pagination-bullet-active {
+    background-color: #B91B23;
+    opacity: 1;
 }

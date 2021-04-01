@@ -128,10 +128,10 @@
 					<a href="intro.html?pageIndex=1">有红餐饮</a>
 				</li>
 				<li class="popup-list-item">
-					<a href="brand-advantage.html?pageIndex=2">特色菜品</a>
+					<a href="specialty.html?pageIndex=2">特色菜品</a>
 				</li>
 				<li class="popup-list-item">
-					<a href="specialty.html?pageIndex=3">供应链</a>
+					<a href="supply-chain.html?pageIndex=3">供应链</a>
 				</li>
 				<li class="popup-list-item">
 					<a href="shop-elegant-demeanour.html?pageIndex=4">合作加盟</a>

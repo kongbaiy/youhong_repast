@@ -87,7 +87,7 @@
 }
 
 /* 特色 */
-.food-header {
+.specialty-header {
     box-sizing: border-box;
     padding: 0.35rem 0.13rem;
     height: 2.5rem;
@@ -97,47 +97,47 @@
     background-size: cover;
 }
 
-.food-header .food-titleBox .c-module-title {
+.specialty-header .specialty-titleBox .c-module-title {
     color: #fff;
 }
 
-.food-slogan {
+.specialty-slogan {
     text-align: right;
     font-size: 0;
 }
 
-.food-slogan, 
-.food-slogan-title a {
+.specialty-slogan, 
+.specialty-slogan-title a {
     color: #fff;
 }
 
-.food-slogan-title {
+.specialty-slogan-title {
     font-size: 0.13rem;
     font-family: Source Han Sans CN;
     font-weight: bold;
 }
 
-.food-slogan-rightArrow {
+.specialty-slogan-rightArrow {
     margin-left: 0.1rem;
     width: 0.15rem;
     height: 0.15rem;
 }
 
-.food-slogan-text {
+.specialty-slogan-text {
     margin-top: 0.19rem;
     font-size: 0.12rem;
     font-family: Source Han Sans CN;
     font-weight: 400;
 }
 
-.food-nav {
+.specialty-nav {
     margin-top: 0.3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.food-nav-item {
+.specialty-nav-item {
     width: 0.8rem;
     height: 0.3rem;
     font-size: 0.13rem;
@@ -148,23 +148,23 @@
     color: #fff;
 }
 
-.food-nav-item_active {
+.specialty-nav-item_active {
     background-color: #fff;
     color: #B91B23;
 }
 
-.food-swiper {
+.specialty-swiper {
     margin: -0.75rem 0.13rem 0;
     height: 4.7rem;
 }
 
-.food-swiper-slideImg {
+.specialty-swiper-slideImg {
     width: 100%;
     height: 2.5rem;
     object-fit: cover;
 }
 
-.food-swiper-slideInfo {
+.specialty-swiper-slideInfo {
     padding: 0.2rem 0.13rem 0.23rem;
     background-image: url(../imgs/700-300.jpg);
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@
     color: #fff;
 }
 
-.food-swiper-slideTitle {
+.specialty-swiper-slideTitle {
     padding-bottom: 0.12rem;
     border-bottom: 1px solid #fff;
     font-size: 0.18rem;
@@ -181,7 +181,7 @@
     font-weight: bold;
 }
 
-.food-swiper-slideText {
+.specialty-swiper-slideText {
     margin-top: 0.12rem;
     font-size: 0.12rem;
     font-family: Source Han Sans CN;
@@ -189,26 +189,26 @@
     line-height: 0.11rem;
 }
 
-.food-swiper-slideText img {
+.specialty-swiper-slideText img {
     margin-left: 0.05rem;
     width: 0.12rem;
     width: 0.12rem;
 }
 
-.food-pagination {
+.specialty-pagination {
     bottom: 0.35rem !important;
 }
 
-.food-swiper-sildeText:nth-child(2) {
+.specialty-swiper-sildeText:nth-child(2) {
     margin-top: 0.15rem;
 }
 
-.food-pagination .swiper-pagination-bullet {
+.specialty-pagination .swiper-pagination-bullet {
     width: 0.1rem;
     height: 0.1rem;
 }
 
-.food-pagination .swiper-pagination-bullet-active{
+.specialty-pagination .swiper-pagination-bullet-active{
     background-color: #DA3021;
 }
 

@@ -28,18 +28,18 @@
 	});
 
 	//品牌加盟 
-	var foodIndex = 0;
-    var food = new Swiper('.food-swiper', {
+	var specialtyIndex = 0;
+    var specialty = new Swiper('.specialty-swiper', {
 		autoplayDisableOnInteraction: false,
 		autoplay: 5000,
 		loop: true,
 		pagination: {
-			el: '.food-pagination',
+			el: '.specialty-pagination',
 			clickable: true,
 		},
         on: {
 			slideChangeTransitionEnd() {
-				foodIndex = this.realIndex;
+				specialtyIndex = this.realIndex;
 			}
 		},
 		a11y: {
@@ -47,7 +47,7 @@
 			nextSlideMessage: 'Next slide',
 			firstSlideMessage: 'This is the first slide',
 			lastSlideMessage: 'This is the last slide',
-			paginationBulletMessage: 'Go to slide ' + (foodIndex + 1),
+			paginationBulletMessage: 'Go to slide ' + (specialtyIndex + 1),
 			notificationClass: 'swiper-notification',
 			containerMessage: 'This is a swiper',
 			containerRoleDescriptionMessage: 'banner', //aria-role-description
@@ -65,9 +65,9 @@
     
 
 	// 特色
-	$('.food-nav-item').on('click', function() {
-		$('.food-nav-item').removeClass('food-nav-item_active');
-		$(this).addClass('food-nav-item_active');
+	$('.specialty-nav-item').on('click', function() {
+		$('.specialty-nav-item').removeClass('specialty-nav-item_active');
+		$(this).addClass('specialty-nav-item_active');
 	});
 
 	// 咨询

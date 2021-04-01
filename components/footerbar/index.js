@@ -152,7 +152,7 @@
 			}
 
 			.footer-navbar-item_active .footer-navbar-itemText {
-				color: #DA3021;
+				color: #B91B23;
 			}
 		</style>
 		<div>
