@@ -134,10 +134,10 @@
 					<a href="supply-chain.html?pageIndex=3">供应链</a>
 				</li>
 				<li class="popup-list-item">
-					<a href="shop-elegant-demeanour.html?pageIndex=4">合作加盟</a>
+					<a href="join-in.html?pageIndex=4">合作加盟</a>
 				</li>
 				<li class="popup-list-item">
-					<a href="cooperation.html?pageIndex=5">资讯中心</a>
+					<a href="consulting.html?pageIndex=5">资讯中心</a>
 				</li>
 				<li class="popup-list-item">
 					<a href=news.html?pageIndex=6>联系我们</a>

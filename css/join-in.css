@@ -1,0 +1,431 @@
+.banner-container {
+    height: 3.93rem;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav {
+	padding: 0.25rem 0.13rem;
+	background-color: #F7F7F7;
+}
+
+.nav-item {
+	width: 0.8rem;
+	height: 0.35rem;
+	background-color: #fff;
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.35rem;
+	text-align: center;
+	color: #262626;
+}
+
+.nav-item_active {
+	background-color: #B91B23;
+	color: #fff;
+}
+
+/* 投股合作 */
+.cooperation {
+	padding: 0.4rem 0.13rem;
+	background-image: url(../imgs/750-1960_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cooperation-listBox {
+	padding: 0.1rem;
+	background-color: #fff;
+	box-shadow: 0 0.01rem 0.06rem 0.02rem rgba(0,0,0,0.1);
+}
+
+.cooperation-list {
+	box-sizing: border-box;
+	padding: 0.25rem 0.15rem;
+	border: 1px solid #B91B23;
+}
+
+.cooperation-list-title {
+	margin: auto;
+	width: 1.5rem;
+	height: 0.35rem;
+	background-image: url(../imgs/300-70_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 0.18rem;
+	line-height: 0.35rem;
+	text-align: center;
+	color: #fff;
+}
+
+.cooperation-list-item {
+	padding-top: 0.15rem;
+	padding-bottom: 0.16rem;
+	padding-left: 0.3rem;
+	background-image: url(../imgs/20-20.png);
+	background-repeat: no-repeat;
+	background-position: left 0.26rem;
+	background-size: 0.14rem 0.14rem;
+	border-bottom: 1px solid #B91B23;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.24rem;
+	color: #262626;
+}
+
+.cooperation-list-item:first-of-type {
+	margin-top: 0.16rem;
+}
+
+.cooperation-list-item:last-of-type {
+	border-bottom: none;
+}
+
+/* 常见问题 */
+.common-problem {
+	display: none;
+	padding: 0.35rem 0.13rem 0.15rem;
+}
+
+.common-problem-title {
+	position: relative;
+	padding-bottom: 0.15rem;
+	font-size: 0.18rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #404040;
+}
+
+.common-problem-title::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0.35rem;
+	height: 0.02rem;
+	background-color: #B91B23;
+}
+
+.common-problem-text {
+	margin-bottom: 0.35rem;
+	margin-top: 0.2rem;
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.24rem;
+	color: #666;
+}
+
+/* 开店支持 */
+.shop-support {
+	padding: 0.35rem 0.3rem;
+}
+
+.shop-support-title,
+.analyse-title,
+.budget-list-formTitle {
+	position: relative;
+	padding-bottom: 0.1rem;
+	font-size: 0.22rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	color: #262626;
+}
+
+.shop-support-title::after,
+.analyse-title::after,
+.budget-list-formTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.5rem;
+	height: 0.01rem;
+	background-color: #262626;
+}
+
+.shop-support-english,
+.analyse-english,
+.budget-list-formEnglish {
+	margin: auto;
+	margin-top: 0.1rem;
+	max-width: 3.19rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.21rem;
+	text-transform: uppercase;
+	text-align: center;
+	color: #999;
+}
+
+.shop-support-list {
+	margin-top: 0.25rem;
+	margin-left: 0.09rem;
+	border-left: 1px solid #B91B23;
+}
+
+.shop-support-listItem {
+	position: relative;
+	padding-left: 0.21rem;
+}
+
+.shop-support-listItem:nth-child(n + 2) {
+	margin-top: 0.21rem;
+}
+
+.shop-support-listItemTitle {
+	position: relative;
+	padding-bottom: 0.1rem;
+	font-size: 0.16rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #262626;
+}
+
+.shop-support-listItemTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0.2rem;
+	height: 0.02rem;
+	background-color: #262626;
+}
+
+.shop-support-listItemText {
+	margin-top: 0.15rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.shop-support-listItemIcon {
+	position: absolute;
+	top: 0;
+	left: -0.09rem;
+	width: 0.18rem;
+	height: 0.18rem;
+	background-color: #fff;
+}
+
+/* 分析 */
+.analyse {
+	padding: 0.35rem 0.13rem;
+	background-color: #F7F7F7;
+	font-size: 0;
+}
+
+.analyse-img {
+	margin-top: 0.25rem;
+	width: 100%;
+}
+
+
+.analyse-list {
+	margin-top: 0.2rem;
+}
+
+.analyse-list-item {
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.18rem;
+	color: #999;
+}
+
+.analyse-list-item:nth-child(n + 2) {
+	margin-top: 0.1rem;
+}
+
+.analyse-list-item span {
+	margin-right: 0.03rem;
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.17rem;
+	color: #DA3021;
+}
+
+/* 预算清单 */
+.budget-list {
+	padding: 0.35rem 0.23rem 0.5rem;
+	background-image: url(../imgs/750-1400_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.budget-list-title {
+	font-size: 0.24rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.41rem;
+	text-align: center;
+	color: #fff;
+}
+
+.budget-list-text {
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.22rem;
+	text-align: center;
+	color: #fff;
+}
+
+.budget-list-btn {
+	display: block;
+	margin: 0.18rem auto 0;
+	width: 2rem;
+	height: 0.35rem;
+	background-color: #B91B23;
+	border-radius: 0.175rem;
+	font-size: 0.16rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #fff;
+}
+
+.budget-list-telephoneIcon {
+	margin-right: 0.1rem;
+	height: 0.18rem;
+}
+
+
+.form {
+	margin-top: 0.35rem;
+	padding: 0.25rem;
+	background-color: #fff;
+	border-top: 0.1rem solid #B91B23;
+}
+
+.select, .select-2 {
+	position: relative;
+	padding: 0 0.08rem;
+	height: 0.38rem;
+	border: 1px solid #E6E6E6;
+}
+
+.select:first-of-type {
+	margin-top: 0.25rem;
+}
+
+.select-input {
+	flex: 1;
+	padding-left: 0.02rem;
+	height: 100%;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.bottom-arrow-icon {
+	transition: all 200ms linear;
+	width: 0.13rem;
+}
+
+.select:hover .bottom-arrow-icon, .select-2:hover .bottom-arrow-icon {
+	transform: rotate(-180deg);
+}
+
+.select-drop-downList {
+	display: none;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	position: absolute;
+	top: 0.42rem;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	max-height: 3rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.select-drop-downListItem {
+	padding: 0 0.1rem;
+	height: 0.38rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.38rem;
+	color: rgba(38,38,38, 0.6);
+}
+
+.select:hover .select-drop-downList{
+	display: block;
+}
+
+.select-2:hover .select-drop-downList{
+	display: block;
+}
+
+.form-cell {
+	margin-top: 0.1rem;
+}
+
+.select-2{
+	box-sizing: border-box;
+	width: 1.35rem;
+}
+
+.select-2 .select-input {
+	width: 1.06rem;
+}
+
+.form-input {
+	margin-top: 0.1rem;
+	padding: 0 0.1rem;
+	box-sizing: border-box;
+	width: 100%;
+	height: 0.38rem;
+	border: 1px solid #E6E6E6;
+	background-color: #fff;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.form-input::placeholder, .form-textarea::placeholder {
+	color: #999;
+}
+
+.form-textareaBox {
+	margin-top: 0.1rem;
+	padding: 0.14rem 0.1rem;
+	background-color: #fff;
+	border: 1px solid #E6E6E6;
+}
+
+.form-textarea {
+	width: 100%;
+	height: 0.72rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.form-submit-btn {
+	margin-top: 0.15rem;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+}

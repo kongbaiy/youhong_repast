@@ -179,7 +179,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.2rem 0.23rem;
+    margin: 0.35rem 0.23rem 0.5rem;
 }
 
 .c-pagingT1-next, 
@@ -205,8 +205,8 @@
 }
 
 .c-pagingT1-prev {
-    border: 1px solid #DA3021;
-    background-color: #DA3021;
+    border: 1px solid #B91B23;
+    background-color: #B91B23;
     color: #fff;
 }
 
