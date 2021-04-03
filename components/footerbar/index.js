@@ -185,12 +185,12 @@
 			<div class="footer-navbar">
 				<div class="footer-navbar-item">
 					<a href="home.html?pageIndex=0">
-						<img src="imgs/footer_navbar_icon_2.png" class="footer-navbar-itemIcon" />
+						<img src="imgs/footer_navbar_icon_1.png" class="footer-navbar-itemIcon" />
 						<p class="footer-navbar-itemText">首页</p>
 					</a>
 				</div>
 				<div class="footer-navbar-item">
-					<a href="cooperation.html?pageIndex=5">
+					<a href="join-in.html?pageIndex=4">
 						<img src="imgs/footer_navbar_icon_2.png" class="footer-navbar-itemIcon" />
 						<p class="footer-navbar-itemText">合作加盟</p>
 					</a>
@@ -233,7 +233,7 @@
 			const navbar_icon_el = this._root.querySelectorAll('.footer-navbar-itemIcon');
 			const match_page_index = {
 				'0': 0,
-				'5': 1
+				'4': 1
 			};
 			const navbar_icons = [
 				{ path: 'imgs/footer_navbar_icon_1.png',  activePath: 'imgs/footer_navbar_active_icon_1.png' },
@@ -244,8 +244,9 @@
 
 			if(match_page_index[page_index] || match_page_index[page_index] == 0) {
 				let current_index = match_page_index[page_index];
-
 				navbar_el[current_index].className = 'footer-navbar-item footer-navbar-item_active';
+
+				console.log(current_index);
 				navbar_icon_el[current_index].setAttribute('src', navbar_icons[current_index].activePath);
 			}
 

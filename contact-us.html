@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="browsermode" content="application">
+		<meta name="x5-page-mode" content="app"> 
+		<meta name="apple-mobile-web-app-capable" content="no" />
+		<meta name="format-detection" content="telephone=no,email=no,adress=no"/>
+		<title>资讯中心</title>
+		<link rel="stylesheet" type="text/css" href="common/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="common/css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="common/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/contact-us.css" />
+		<script src="common/js/rem.js"></script>
+		<script src="common/js/ios.js"></script>
+		<script src="common/js/custom-elements-es5-adapter.min.js"></script>
+		<script src="common/js//webcomponents-bundle.js"></script>
+		<script src="common/js/webcomponents-loader.min.js"></script>
+		<script src="./components/navbar/index.js"></script>
+		<script src="./components/footerbar/index.js"></script>
+        <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=6uaO4XCGxeK5NV0itp3DH8oMVbI6w6z4"></script>
+	</head>
+	<body>
+		<!-- 顶部导航栏 -->
+		<top-navbar></top-navbar>
+		
+        <div class="swiper-container banner">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="imgs/750-360_6.jpg" class="banner-img" />
+				</div>
+			</div>
+		</div>
+
+        <div class="contact-info">
+            <p class="contact-info-title">蓉城老妈诚邀志同道合的您共谋发展！</p>
+            <div class="contact-info-list">
+                <div class="contact-info-listItem">
+                    <img src="imgs/phone_icon.png" alt="" class="contact-info-listItemIcon" />总部电话：028-00000000
+                </div>
+                <div class="contact-info-listItem">
+                    <img src="imgs/phone_icon.png" alt="" class="contact-info-listItemIcon" />招商加盟电话：400-000-0000
+                </div>
+                <div class="contact-info-listItem">
+                    <img src="imgs/email_icon.png" alt="" class="contact-info-listItemIcon" />公司邮箱：123456789@qq.com
+                </div>
+                <div class="contact-info-listItem">
+                    <img src="imgs/address_icon.png" alt="" class="contact-info-listItemIcon" />公司地址：四川省成都市金牛区星辉西路11号-附16号附近
+                </div>
+            </div>
+
+            <div id="allmap"></div>
+        </div>
+
+        <div class="form-box">
+            <form action="" method="post" class="form">
+				<p class="budget-list-formTitle">加盟申请</p>
+				<p class="budget-list-formEnglish">Join application</p>
+				<div class="c-f-dc select">
+					<input type="text" name="" id="" value="四川省" readonly="readonly" class="select-input" />
+					<img src="imgs/bottom_arrow_icon.png" class="bottom-arrow-icon" />
+					<div class="select-drop-downList">
+						<div class="c-text-over_clamp-1 select-drop-downListItem">北京</div>
+					</div>
+				</div>
+				<div class="c-f-cb form-cell">
+					<div class="c-f-dc select-2">
+						<input type="text" name="" id="" value="成都市" readonly="readonly" class="select-input" />
+						<img src="imgs/bottom_arrow_icon.png" class="bottom-arrow-icon" />
+						<div class="select-drop-downList">
+							<div class="c-text-over_clamp-1 select-drop-downListItem">乐山</div>
+						</div>
+					</div>
+					<div class="c-f-dc select-2">
+						<input type="text" name="" id="" value="锦江区" readonly="readonly" class="select-input" />
+						<img src="imgs/bottom_arrow_icon.png" class="bottom-arrow-icon" />
+						<div class="select-drop-downList">
+							<div class="c-text-over_clamp-1 select-drop-downListItem">武侯区</div>
+						</div>
+					</div>
+				</div>
+				<input type="text" name="" id="" value="" placeholder="请输入您的姓名" class="form-input" />
+				<input type="number" maxlength="11" name="" id="" value="" placeholder="请输入您的电话" class="form-input" oninput="if(value.length>11)value=value.slice(0,11)" />
+				<div class="form-textareaBox">
+					<textarea rows="" cols="" placeholder="请输入留言内容..." class="form-textarea"></textarea>
+				</div>
+				<input type="button" name="" id="" value="提交" class="c-btn-t1 form-submit-btn" />
+			</form>
+        </div>
+		
+		<!-- 页脚 -->
+		<footer-bar></footer-bar>
+		    
+		<script src="common/js/jquery-1.8.3.min.js"></script>
+		<script src="common/js/swiper-bundle.min.js"></script>
+		<script src="js/contact-us.js"></script>
+	</body>
+</html>

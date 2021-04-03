@@ -142,6 +142,7 @@
 .team {
 	display: none;
 	overflow: hidden;
+	margin-top: 0.25rem;
 	padding: 0 0.13rem;
 }
 

@@ -1,5 +1,5 @@
-.banner-container {
-    height: 3.93rem;
+.banner {
+    height: 1.8rem;
 }
 
 .banner-img {
@@ -303,7 +303,6 @@
 	margin-right: 0.1rem;
 	height: 0.18rem;
 }
-
 
 .form {
 	margin-top: 0.35rem;

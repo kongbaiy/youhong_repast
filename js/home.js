@@ -71,8 +71,8 @@
 	});
 
 	// 咨询
-	$('.join-in-navItem').on('click', function() {
-		$('.join-in-navItem').removeClass('join-in-navItem_active');
-		$(this).addClass('join-in-navItem_active');
+	$('.consulting-nav-item').on('click', function() {
+		$('.consulting-nav-item').removeClass('consulting-nav-item_active');
+		$(this).addClass('consulting-nav-item_active');
 	});
 })(window, document);

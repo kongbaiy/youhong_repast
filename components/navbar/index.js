@@ -140,7 +140,7 @@
 					<a href="consulting.html?pageIndex=5">资讯中心</a>
 				</li>
 				<li class="popup-list-item">
-					<a href=news.html?pageIndex=6>联系我们</a>
+					<a href="contact-us.html?pageIndex=6">联系我们</a>
 				</li>
 			</ul>
 		</div>
