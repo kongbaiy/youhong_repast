@@ -1,0 +1,124 @@
+header {
+    padding: 0.3rem 0.13rem 0.2rem;
+    background-color: #F7F7F7;
+}
+
+.title {
+    font-size: 0.2rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #262626;
+}
+
+.text {
+    margin-top: 0.18rem;
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 1;
+    color: #999;
+}
+
+.date {
+    margin-top: 0.15rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 1;
+    color: #999;
+}
+
+main {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.link-btn {
+    display: block;
+    margin: 0 0.18rem;
+}
+
+.info {
+    overflow: hidden;
+    margin-top: 0.1rem;
+    padding: 0 0.13rem;
+}
+
+.info-item {
+    margin-top: 0.25rem;
+}
+
+.info-item-title {
+    position: relative;
+    padding-bottom: 0.15rem;
+    font-size: 0.17rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #404040;
+}
+
+.info-item-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0.15rem;
+    height: 0.02rem;
+    background-color: #B91B23;
+}
+
+.info-item-text {
+    margin-top: 0.15rem;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.25rem;
+    color: #666;
+}
+
+.btnBox {
+    margin: 0.35rem 0.13rem 0;
+}
+
+.btn {
+    width: 1.7rem;
+    height: 0.45rem;
+    font-size: 13px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+}
+
+
+.btn-icon {
+    width: 0.08rem;
+    height: 0.15rem;
+}
+
+.btn-prev {
+    border: 1px solid #B91B23;
+    color: #B91B23;
+}
+
+.btn-prev .btn-wire {
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
+    width: 0.01rem;
+    height: 0.1rem;
+    background-color: #B91B23;
+}
+
+.btn-next {
+    border: 1px solid #B91B23;
+    background-color: #B91B23;
+    color: #fff;
+}
+
+.btn-next .btn-wire {
+    margin-left: 0.2rem;
+    margin-right: 0.1rem;
+    width: 0.01rem;
+    height: 0.1rem;
+    background-color: #fff;
+}

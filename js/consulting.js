@@ -33,6 +33,8 @@
 		
 		if(index == 3) {
 			$('.team').show();
+		} else {
+			$('.nav-content').eq(0).show();
 		}
 	});
 	

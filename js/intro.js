@@ -62,6 +62,9 @@
 
 	});
 
+	$('.development-history-listItem').eq(0).addClass('development-history-listItem_active');
+	$('.development-history-listItem .development-history-listItemIcon').eq(0).hide();
+	$('.development-history-listItem .development-history-listItemIcon2').eq(0).show();
 	$('.development-history-listItem').on('click', function() {
 		$('.development-history-listItem').removeClass('development-history-listItem_active');
 		$(this).addClass('development-history-listItem_active');

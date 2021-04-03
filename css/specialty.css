@@ -40,8 +40,11 @@
     margin: 0.2rem 0.13rem 0;
 }
 
-.nav-item {
+.nav a {
     float: left;
+}
+
+.nav-item {
     width: 0.8rem;
     height: 0.35rem;
     background-color: #E6E6E6;
@@ -53,7 +56,7 @@
     color: #262626;
 }
 
-.nav-item:nth-child(n + 2) {
+.nav a:nth-child(n + 2) {
     margin-left: 0.09rem;
 }
 

@@ -141,7 +141,7 @@
 
 .company-character-title span {
 	font-size: 0.16rem;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .company-character-nav {
@@ -173,6 +173,7 @@
 	position: absolute;
 	top: 0.05rem;
 	left: 0.05rem;
+	z-index: -1;
 	width: 1.05rem;
 	height: 0.35rem;
 	background-image: url(../imgs/210-70_bg.png);
@@ -271,7 +272,7 @@
 .development-history-listItemTitle {
 	font-size: 0.18rem;
 	font-family: Source Han Sans CN;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 0.16rem;
 	color: #262626;
 }

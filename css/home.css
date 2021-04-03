@@ -234,6 +234,10 @@
     font-size: 0;
 }
 
+.product-chain-item:first-of-type {
+    margin-top: 0;
+}
+
 .product-chain-item:last-child {
     margin-bottom: 0.4rem;
 }
@@ -339,7 +343,7 @@
 .consulting-list-itemTitle {
     font-size: 0.15rem;
     font-family: Source Han Sans CN;
-    font-weight: 500;
+    font-weight: 700;
     color: #262626;
 }
 

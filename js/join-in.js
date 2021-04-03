@@ -32,7 +32,9 @@
 		$('.nav-content').hide();
 		
 		if(index == 3) {
-			$('.common-problem').show();
+			$('.nav-content').eq(1).show();
+		} else {
+			$('.nav-content').eq(0).show();
 		}
 	});
 	

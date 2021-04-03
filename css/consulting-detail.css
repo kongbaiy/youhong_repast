@@ -79,7 +79,7 @@ html {
 	font-family: Source Han Sans CN;
 	font-weight: 400;
 	line-height: 0.3rem;
-	color: #6666;
+	color: #666;
 }
 
 .link a:nth-child(n + 2) .link-item {
@@ -93,10 +93,25 @@ html {
 }
 
 /* 新闻资讯 */
-.consulting-list {
+.consulting {
 	margin-top: 0.1rem;
-	padding: 0 0.13rem 0.5rem;
+	padding: 0.25rem 0.13rem 0.5rem;
 	background-color: #fff;
+
+}
+
+.consulting-title {
+	font-size: 0.2rem;
+	font-family: Source Han Sans CN;
+	font-weight: 700;
+	color: #262626;
+}
+
+.consulting-text {
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #999;
 }
 
 .consulting-list-item {
@@ -120,7 +135,7 @@ html {
 .consulting-list-itemTitle {
     font-size: 0.15rem;
     font-family: Source Han Sans CN;
-    font-weight: 500;
+    font-weight: 700;
     color: #262626;
 }
 
